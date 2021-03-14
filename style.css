@@ -1,3 +1,4 @@
+/* General */
 * {
 	padding: 0;
 	margin: 0;
@@ -11,6 +12,9 @@ body {
 	width: 100%;
 	height: 100%;
 }
+p {color: #d2d2d4;}
+
+/* Header */
 header {
 	margin: 0;
 	padding: 0;
@@ -27,11 +31,32 @@ header h3 {
 	flex: 0.9;
 }
 header a {
-	color: #d2d2d4;
+	color: #05a32d;
 	text-decoration: none;
 	margin-top: 21px;
 	float: right;
 }
+
+/* Title and Search Feature */
+h1 {
+	color: #fff;
+	text-align: center;
+	margin: 30px 0;
+	font-size: 30px;
+}
+.search {
+	display: inline;
+}
+.search > input {
+	background-color: transparent;
+	border: 1px solid #000000;
+	padding: 10px;
+}
+
+
+
+
+/* Footer */
 footer {
 	margin: 23px 0;
 	min-width: 100%;
