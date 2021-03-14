@@ -12,7 +12,9 @@ body {
 	height: 100%;
 }
 header {
-	width: 100%;
+	margin: 0;
+	padding: 0;
+	min-width: 100%;
 	height: 60px;
 	background-color: #0b0726;
 	display: flex;
@@ -31,12 +33,11 @@ header a {
 	float: right;
 }
 footer {
-	margin: 23px;
-	width: 100%;
+	margin: 23px 0;
+	min-width: 100%;
 	justify-content: center;
 }
 .footer {
-	align-items: center;
 	justify-content: center;
 	text-align: center;
 	color: #d2d2d4;
