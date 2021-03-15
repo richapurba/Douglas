@@ -22,14 +22,60 @@
 	  <!-- Forms -->
 	  <section class="form">
 		  <div id="signin">
-			  <p>Please fill out this form.</p>
-			  <p class="input">Username</p>
-			  <input class="form__input" type="text" placeholder="Username">
-			  <p class="input">Password</p>
-			  <input class="form__input" type="password" placeholder="Password">
-			  <p class="explain">Don't have account yet? <a href="#signup" style="color: #05a32d;">Sign Up</a></p>
+			<div class="modal">
+				<div class="modal__header">
+					<p class="explain">Please fill out this form.</p>
+				</div>
+				<div class="modal__body">
+					<form>
+						<div class="form__one">
+							<label class="text-uppercase">Email</label>
+							<input class="form__input" type="email" placeholder="Enter your email here">
+						</div>
+						<div class="form__one">
+							<label class="text-uppercase">Password</label>
+							<input class="form__input" type="password" placeholder="Your 8-character mixed-case password">
+						</div>
+						<p class="explain">Don't have account yet? <a class="signup" href="#signup">Sign Up</a></p>
+					</form>
+				</div>
+				<div class="modal__footer">
+					<a class="btn btn-success">Sign In</a>
+				</div>
+			</div>
 		  </div>
-		  <div id="signup"></div>
+		  <div id="signup">
+			<div class="modal">
+				<div class="modal__header">
+					<p class="explain">Create Your Account</p>
+				</div>
+				<div class="modal__body">
+					<form>
+						<div class="form__one">
+							<label class="text-uppercase">Full Name</label>
+							<input class="form__input" type="text" placeholder="Enter your full name here">
+						</div>
+						<div class="form__one">
+							<label class="text-uppercase">Email</label>
+							<input class="form__input" type="email" placeholder="Enter your email here">
+						</div>
+						<div class="form__one">
+							<label class="text-uppercase">Password</label>
+							<input class="form__input" type="password" placeholder="Your 8-character mixed-case password">
+						</div>
+						<div class="form__one">
+							<label class="text-uppercase">Confirm Password</label>
+							<input class="form__input" type="password" placeholder="Confirm your password">
+						</div>
+						<p class="explain" style="font-size: 11px;">By signing up, you agree with Douglas & Luis Co.'s Terms and Conditions.</p>
+						<p class="explain">Already have an account? <a class="signup" href="#signin">Sign In</a></p>
+					</form>
+				</div>
+				<div class="modal__footer">
+					<a class="btn btn-success">Sign Up</a>
+				</div>
+			</div>
+		</div>
 	  </section>
 
 	  <!-- Footer -->
