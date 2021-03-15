@@ -6,6 +6,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
   </head>
   <body>
 	  <!-- Header -->
@@ -17,8 +18,16 @@
 	  <!-- Title and Search Stock Feature -->
 	  <section class="upper">
 		  <h1>Stocks Market</h1>
-		  <div class="search"><input type="search" placeholder="Find stocks"><p>Search</p></div>
+		  <div id="search"><input type="search" placeholder="Find stocks" id="txt_search"><p>Search</p></div>
 	  </section>
+
+	  <!-- Chart -->
+	  <br><br><br>
+		<div class="tradingview-widget-container" id="tv__chart"></div>
+		<!-- <div id="tradingview_6ad5c"></div>
+		<div class="tradingview-widget-copyright"><a href="https://uk.tradingview.com/symbols/NASDAQ-AAPL/" rel="noopener" target="_blank"><span class="blue-text">AAPL Chart</span></a> by TradingView</div>
+		</div>
+		 -->
 
 	  <!-- Footer -->
 	  <footer>
