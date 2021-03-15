@@ -90,10 +90,10 @@ h1 {
 	align-items: center;
 	justify-content: center;
 	border: 1px solid #000000;
-	width: 50%;
+	width: 40%;
 	padding: 40px;
 	
-	margin-left: 21%;
+	margin: auto;
 	box-shadow: 0px 0px 5px 1px rgb(0, 0, 0);
 	border-radius: 4px;
 	margin-top: 40px;
@@ -101,17 +101,18 @@ h1 {
 }
 label {
 	color: #d2d2d4;
+	font-size: 13px;
 }
 .form label,
 .explain,
-.btn {
-	margin: 18px 20px;
+.btn,
+.form__input {
+	margin: 18px 8%;
 }
 .form__input {
 	border: 1px solid #000000;
 	border-radius: 4px;
 	width: 80%;
-	margin: 0 20px;
 }
 .signup {
 	text-decoration: none;
@@ -138,6 +139,7 @@ label {
 	border: 1px solid #000000;
 	color: #d2d2d4;
 }
+
 /* Footer */
 footer {
 	margin: 23px 0;
